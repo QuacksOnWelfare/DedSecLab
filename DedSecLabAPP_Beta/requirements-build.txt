@@ -1,0 +1,10 @@
+# Build-only tools (Nuitka). Same venv:
+#   .\venv\Scripts\pip install -r requirements-build.txt
+# Or build.py menu option 4.
+
+nuitka>=2.4
+ordered-set>=4.1.0
+zstandard>=0.22.0
+
+# Optional: regenerate installer wizard images (installer/make_images.py)
+Pillow>=10.0.0

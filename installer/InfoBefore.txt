@@ -1,0 +1,9 @@
+Before you start
+
+DedSecLab is a defensive security lab. Use it only on systems, networks and accounts that you own or have explicit written permission to test.
+
+You need a DedSec Lab account to sign in. Create one from the app's sign-in screen or through the community if you do not have access yet.
+
+DedSecLab connects to your own private VPN lab servers. Make sure your VPN connection is set up before you begin.
+
+By continuing you agree to use the software only for lawful purposes and only against targets you are authorised to test.

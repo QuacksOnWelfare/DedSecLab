@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "enabled": true,
+    "display_name": "YOUR_OWNER_DISPLAY_NAME",
+    "password_hash": "YOUR_SHA256_PASSWORD_HASH",
+    "allowed_ips": [
+      "YOUR_CLIENT_VPN_IP",
+      "YOUR_OWNER_PUBLIC_IP_OPTIONAL"
+    ]
+  }
+}

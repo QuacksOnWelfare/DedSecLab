@@ -1,0 +1,46 @@
+stages:
+  - build
+  - deploy
+
+image: python:3.10-slim  # Adjust Python version as needed
+
+variables:
+  PYPI_USERNAME: __token__
+  PYPI_PASSWORD: $PYPI_TOKEN  # Replace with actual environment variable name
+  POETRY_VERSION: "1.8.2"
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+build:
+  stage: build
+  script:
+    - python -m venv .venv
+    - source .venv/bin/activate
+    - pip install --upgrade pip
+    - pip install poetry==$POETRY_VERSION
+    - cp files/pyproject.toml .
+    - poetry install
+    - poetry build
+  artifacts:
+    paths:
+      - .venv
+      - pyproject.toml
+      - dist/*.whl
+
+deploy:
+  stage: deploy
+  script:
+    - source .venv/bin/activate
+    - poetry publish --username $PYPI_USERNAME --password $PYPI_PASSWORD
+  dependencies:
+    - build
+  rules:
+    # Auto run on pypi branch
+    - if: '$CI_COMMIT_BRANCH == "pypi"'
+      when: on_success
+
+    # Manual trigger on main branch
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: manual
+
+    # Do not run otherwise
+    - when: never

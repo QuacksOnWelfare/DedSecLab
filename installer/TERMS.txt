@@ -1,0 +1,13 @@
+DedSecLab - Terms of use
+
+DedSecLab is a defensive security toolkit and private VPN lab for testing and hardening your own systems and networks.
+
+By using the app you agree to use it only on systems, networks and accounts you own or are explicitly authorised to test. You are responsible for how you use it.
+
+DedSec Lab is not responsible for any misuse of the app or for any damage caused by using it against systems you do not own or have permission to test.
+
+You are responsible for your own connection and its security.
+
+The software is provided as is, without warranty (see the MIT licence).
+
+Thanks for using DedSecLab.

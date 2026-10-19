@@ -1,0 +1,23 @@
+{
+  "_comment": "Example config — copy and edit for your deployment.",
+  "users": {
+    "YOUR_CLIENT_VPN_IP": {
+      "enabled": true,
+      "display_name": "Example User",
+      "role": "standard",
+      "app_username": "example",
+      "app_password_hash": "YOUR_SHA256_PASSWORD_HASH",
+      "ssh_user": "dedsecuser",
+      "current_vpn_region": "uk",
+      "subscription_expires": "2099-12-31",
+      "discord_name": "YOUR_DISCORD_HANDLE",
+      "welcome_message": "Welcome to your lab."
+    }
+  },
+  "vpn_locations": {
+    "UK": { "enabled": true },
+    "USA": { "enabled": true },
+    "CANADA": { "enabled": true },
+    "EU": { "enabled": true }
+  }
+}

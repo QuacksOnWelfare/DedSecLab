@@ -1,0 +1,11 @@
+{
+  "_comment": "Example config \u2014 OVH DDoS protection alert bridge.",
+  "enabled": false,
+  "ovh_endpoint": "ovh-eu",
+  "ovh_app_key": "YOUR_OVH_APP_KEY",
+  "ovh_app_secret": "YOUR_OVH_APP_SECRET",
+  "ovh_consumer_key": "YOUR_OVH_CONSUMER_KEY",
+  "service_name": "YOUR_OVH_IP_OR_SERVICE",
+  "discord_webhook_url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+  "poll_seconds": 60
+}

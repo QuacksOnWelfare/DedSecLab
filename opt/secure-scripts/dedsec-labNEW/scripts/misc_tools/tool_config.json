@@ -1,0 +1,10 @@
+{
+  "name": "Sn1Per",
+  "start_command": [
+    "./sniper"
+  ],
+  "setup_command": [
+    "bash",
+    "install.sh"
+  ]
+}

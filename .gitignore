@@ -1,0 +1,18 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller / packaged app builds
+Output/*.exe
+
+# Tool caches (do not match files shipped in this tree)
+.pytest_cache/
+.mypy_cache/
+*.egg-info/

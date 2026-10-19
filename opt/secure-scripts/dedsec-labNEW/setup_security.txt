@@ -1,0 +1,1 @@
+chmod +x /opt/secure-scripts/dedsec-labNEW/setup_security.sh

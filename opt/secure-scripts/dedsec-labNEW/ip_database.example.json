@@ -1,0 +1,12 @@
+{
+  "_comment": "Example config — copy and edit for your deployment.",
+  "entries": [
+    {
+      "ip": "YOUR_EXAMPLE_IP",
+      "notes": "example note",
+      "tags": [
+        "example"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+📢 DEDSEC LAB Updates / Announcements
+
+[2026-04-24]
+- New account dashboard added.
+- VPN subscription tracking added.
+- User expiry dates now show in the menu.
+- OpenVPN configs now support expiry limits.
+- Static VPN IP assignment added for users.
+- Admin tools remain restricted.
+- New scripts added!
+
+Reminder:
+- Do not share VPN configs.
+- Do not share SSH access.
+- Contact admin if your subscription time is incorrect.
